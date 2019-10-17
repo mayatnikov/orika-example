@@ -1,0 +1,12 @@
+.idea
+target
+target
+*.pdf
+*.jasper
+*.iml
+*.ipr
+*.iws
+*.out
+*~
+*.txt
+out/*

@@ -1,0 +1,11 @@
+spring:
+  main:
+    show-banner: true
+server:
+  port: 8080   # здесь слушает http-server
+  session-timeout: 5
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 200
+my:
+   par1: value_of_paraameter1
