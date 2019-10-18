@@ -22,9 +22,11 @@ public class RestService {
     MapperFacade mapper;
 
     /**
-     * REST запрос преобразование A --> B
+     * описание REST запроса преобразование A --> B
      * @param uwCache - JSON с данными кэш
      * @return JSON в формате РЕСО
+     * для каждого нового запроса надо создать новый блок @RequestMap
+     * возможно и создавать новые классы с блоками @RequestMap
      */
 // TODO добавить swagger нотации
     @RequestMapping(
