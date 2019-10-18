@@ -16,4 +16,3 @@ localhost:8080/convert \
       "_DATE_BUY_TS": "2019-10-14T00:00:00"
     }}
 EOF
-
