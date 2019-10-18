@@ -8,7 +8,6 @@ package mapper.converters;
 
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MappingContext;
-import mapper.MainApp;
 import mapper.datamodel.ResoRequest;
 import mapper.datamodel.UwCache;
 import org.apache.logging.log4j.LogManager;
