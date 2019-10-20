@@ -10,7 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class ResoRequest {
+public class ClassB {
     String userName;
     String isCarOwnerInsurant;
     String carOwnewrId;
