@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class OrikaMapperConfig {
-    final Logger log = LogManager.getLogger(OrikaMapperConfig.class);
+    final Logger log = LogManager.getLogger();
 
     MapperFactory mapperFactory;
     MapperFacade  mapperFacade;
@@ -25,6 +25,7 @@ public class OrikaMapperConfig {
         log.info("Create mapper context and register beans (MapperFactory and MapperFacade)");
         mapperFactory = new DefaultMapperFactory.Builder().build();
         mapperFacade = mapperFactory.getMapperFacade();
+
     }
 
     @Bean
