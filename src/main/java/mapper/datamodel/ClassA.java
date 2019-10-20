@@ -15,6 +15,6 @@ import java.util.HashMap;
 @Getter
 @Setter
 @ToString
-public class UwCache {
+public class ClassA {
      HashMap<String,String>  data;
 }
