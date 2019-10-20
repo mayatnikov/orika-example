@@ -15,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 @ComponentScan
 public class MainApp {
-    static final Logger log = LogManager.getLogger(MainApp.class);
+    static final Logger log = LogManager.getLogger();
     public static void main(String[] args) {
         log.info("Start mapper");
         SpringApplication.run(MainApp.class, args);
